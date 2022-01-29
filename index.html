@@ -35,24 +35,26 @@
             </nav>
         </header>
 
+
         <main class="l-main">
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hello World, I'm <span class="home__title-color">Paul</span><br> The Web Developer You Need</h1>
-                    <a href="mailto:paulj.amponsah@gmail.com" 
-                    rel="noreferrer"
-                    target="_blank"
-                    class="button">CONTACT ME </a>
-            </div>
-
+                    <h1 class="home__title">Hello World, I'm <span class="home__title-color">Paul</span>
+                    <div class="text"> 
+                        <span>W</span><span>e</span><span>l</span><span>co</span><span>me</span><span>to    
+                        </span><span>my</span><span>Po</span><span>r</span><span>t</span><span>f</span><span>o</span><span>l</span><span>i</span><span>o!</span>
+                        </div></h1>
+                        </div>
+                        </div> 
                 <div class="home__social">
                     <a href="https://github.com/jvnior17" class="home__social-icon"
                     rel="noreferrer"
                     target="_blank"><i class='bx bxl-github' ></i></a>
                 </div>
-
-
+                <div id="stars"></div>
+                <div id="stars2"></div>
+                <div id="stars3"></div>
             </section>
 
             <!--===== ABOUT =====-->
@@ -66,9 +68,10 @@
                     
                     <div>
                         <h2 class="about__subtitle">All About Me</h2>
-                        <p class="about__text">Hi my names Paul Amponsah. I'm an active sports loving individual. No I am not a computer science major! I’m a marketing major but I am an extremely passionate and dedicated front end developer, looking to learn more and grow within the field!</p> <br>   
+                        <p class="about__text">Hi my names Paul Amponsah, I'm an active sports loving individual. No I am not a computer science major! I’m a marketing major but I am an extremely dedicated and passionate about front end development. Looking to learn more and grow within the field!</p> <br>   
                         <p class="Hobbies">
-                            Hobbies: Sports, Reading, French, Contracting
+                            Hobbies: Sports, Reading, French<br>
+                            Languages: English, French
                           </p><br>
                           <a
                           rel="noreferrer"
@@ -134,9 +137,57 @@
         </div>
     </div>
 </div>
+
+<!-- project 2 -->
+<div class="project">
+    <div class="wrapper">
+       <div class="description">
+       <h2 class="project__subtitle">Real Estate</h2>
+           <div>
+               <p>Fully interactive and responsive real estate website built using ReactJS, NextJS and Interface created using ChakraUI. Also using RapidAPI fetching data.       
+            </p>
+           </div>
+                 <a
+                   rel="noreferrer"
+                   target="_blank"
+                   class="project_button"
+                   href="https://lonestarrealty.netlify.app/"
+                 >
+                   See Live
+                 </a>
+            <a
+                rel="noreferrer"
+                target="_blank"
+                class="project_button"
+                href="https://github.com/jvnior17/lonestar"
+                 >
+                   Source Code
+                 </a>
+           </div>
+    <div class="project__img">
+        <div class="tilt-box-wrap">
+            <span class="t_over"></span>
+            <span class="t_over"></span>
+            <span class="t_over"></span>
+            <span class="t_over"></span>
+            <span class="t_over"></span>
+            <span class="t_over"></span>
+            <span class="t_over"></span>
+            <span class="t_over"></span>
+            <span class="t_over"></span>
+            <div class="tilt-box">
+            <a rel="noreferrer" 
+            href="https://lonestarrealty.netlify.app/" target="_blank">             
+            <img src="assets/img/work5.png" alt="">
+            </a>
+       </div>
+   </div>
+</div>
+</div>
+</div>
     
 
-         <!-- project 2 -->
+         <!-- project 3 -->
             <div class="project">
                 <div class="wrapper">
                    <div class="description">
@@ -185,7 +236,7 @@
         </div>
     </div>
 
-     <!-- project 3 -->
+     <!-- project 4 -->
             <div class="project">
                 <div class="wrapper">
                    <div class="description">
@@ -235,7 +286,7 @@
                </div>
            </div>
 
-    <!-- project 4 -->
+    <!-- project 5 -->
             <div class="project">
                 <div class="wrapper">
                    <div class="description">
@@ -285,11 +336,11 @@
                </div>
            </div>
       
-            <!--===== WORK =====-->
+            <!--===== Skills =====-->
             <section class="work section" id="work">
                 <h2 class="section-title">Skills</h2>
 
-                <div class="work__container bd-grid">
+                <div class="work__container bd-gridskills">
                     <a href="" class="work__img">
                         <img src="assets/img/html.png" alt="Project">
                     </a>
@@ -318,6 +369,15 @@
                     <a href="" class="work__img">
                         <img src="assets/img/typescript.png" alt="Project">
                     </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/node.png" alt="Project">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/github.png" alt="Project">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/chakra.png" alt="Project">
+                    </a>
                 </div>
             </section>
 
@@ -326,7 +386,8 @@
             </section>
                 <h2 class="section-title">Contact</h2>
                 <div class= "contact_container">
-                <h3>Phone Number: 289-939-8879</h3>
+                <h3 class="footer__icon"><i class='bx bxs-phone'></i></a>  :289-939-8879</h3>
+                <h3><i class='bx bx-mail-send'></i> paulj.amponsah@gmail.com</h3>
                 <a
                 rel="noreferrer"
                 target="_blank"
@@ -337,14 +398,12 @@
               </a>
             </div>
            
-
-        
-
         <!--===== FOOTER =====-->
         <footer class="footer">
             <p class="footer__title">Paul Amponsah</p>
             <div class="footer__social">
-                <a href="" class="footer__icon"><i class='bx bxl-github' ></i></a>
+            <a href="https://github.com/jvnior17"
+            class="footer__icon"><i class='bx bxl-github'></i></a>
             </div>
         </footer>
 
